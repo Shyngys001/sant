@@ -1,0 +1,65 @@
+#title {
+  font-weight: 700;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .bg-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+    
+  .yasin-title1, .yasin-title2, .yasin-title3, .yasin-title4{
+    width: 100%;
+    background-position: 40%;
+    align-items: center;
+    height: 550px;
+  }
+
+  .yasin-title1 {
+    background-image: url('../../public/image/blog/11.JPG')
+  }
+  .yasin-title2 {
+    background-image: url('../../public/image/blog/22.JPG')
+  }
+  .yasin-title3 {
+    background-image: url('../../public/image/blog/33.JPG')
+  }
+  .yasin-title4 {
+    background-image: url('../../public/image/blog/44.JPG')
+  }
+  
+  .title-1 {
+    color: var(--white);
+  }
+
+  a {
+    padding: 10px 24px;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 8px;
+  }
+}
+
+@media(max-width: 900px) {
+  #title { 
+    .yasin-title1{
+      background-image: url('../../public/image/blog/111.JPG');
+    }
+    .yasin-title2{
+      background-image: url('../../public/image/blog/222.JPG');
+    }
+    .yasin-title3{
+      background-image: url('../../public/image/blog/333.JPG');
+    }
+    .yasin-title4{
+      background-image: url('../../public/image/blog/444.JPG');
+    } 
+  }
+}
